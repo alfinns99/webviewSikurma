@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="@dimen/padding_screen">
+
+    <!-- Error Icon -->
+    <ImageView
+        android:id="@+id/ivErrorIcon"
+        android:layout_width="@dimen/icon_size_large"
+        android:layout_height="@dimen/icon_size_large"
+        android:src="@drawable/ic_no_internet"
+        android:contentDescription="@string/cd_no_internet_icon"
+        app:layout_constraintBottom_toTopOf="@id/tvErrorTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:tint="@color/text_secondary" />
+
+    <!-- Error Title -->
+    <TextView
+        android:id="@+id/tvErrorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_lg"
+        android:text="@string/error_title"
+        android:textAppearance="@style/TextAppearance.PortalKurikulum.Title"
+        android:textSize="@dimen/text_size_headline"
+        app:layout_constraintBottom_toTopOf="@id/tvErrorMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivErrorIcon"
+        tools:text="Tidak Ada Koneksi" />
+
+    <!-- Error Message -->
+    <TextView
+        android:id="@+id/tvErrorMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:layout_marginHorizontal="@dimen/spacing_xl"
+        android:gravity="center"
+        android:text="@string/error_message"
+        android:textAppearance="@style/TextAppearance.PortalKurikulum.Body"
+        app:layout_constraintBottom_toTopOf="@id/btnRetry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvErrorTitle"
+        tools:text="Pastikan perangkat Anda terhubung ke internet untuk mengakses portal kurikulum." />
+
+    <!-- Retry Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_lg"
+        android:paddingHorizontal="@dimen/padding_button_horizontal"
+        android:text="@string/error_button_retry"
+        app:icon="@drawable/ic_refresh"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/spacing_sm"
+        style="@style/Theme.PortalKurikulum.Button.Primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvErrorMessage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

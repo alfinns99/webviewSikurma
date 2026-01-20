@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    
+    <!-- Book Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,35c-5.52,0 -10.74,1.1 -15.5,3.09V71.91c4.76,-1.99 9.98,-3.09 15.5,-3.09s10.74,1.1 15.5,3.09V38.09C64.74,36.1 59.52,35 54,35z"/>
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M54,35v33.82c-5.52,0 -10.74,1.1 -15.5,3.09V38.09C43.26,36.1 48.48,35 54,35z"/>
+    
+    <!-- Curriculum Lines -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M42,45h24v2h-24zM42,51h24v2h-24zM42,57h24v2h-24zM42,63h18v2h-18z"/>
+        
+</vector>

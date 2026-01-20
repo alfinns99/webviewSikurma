@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Portal Kurikulum</string>
+    <string name="app_description">Portal Kurikulum SMAN Pesanggaran</string>
+    <string name="app_version">v1.0.0</string>
+    <string name="app_copyright">© 2026 SMAN Pesanggaran</string>
+    
+    <!-- URL -->
+    <string name="base_url">https://kurikulum.smanpesanggaran.sch.id/</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_title">Portal Kurikulum</string>
+    <string name="splash_subtitle">SMAN Pesanggaran</string>
+    
+    <!-- Toolbar -->
+    <string name="toolbar_title">Portal Kurikulum</string>
+    
+    <!-- Error Page -->
+    <string name="error_title">Tidak Ada Koneksi</string>
+    <string name="error_message">Pastikan perangkat Anda terhubung ke internet untuk mengakses portal kurikulum.</string>
+    <string name="error_button_retry">Coba Lagi</string>
+    <string name="error_timeout_title">Waktu Habis</string>
+    <string name="error_timeout_message">Halaman membutuhkan waktu terlalu lama untuk dimuat. Silakan coba lagi.</string>
+    
+    <!-- Info Dialog -->
+    <string name="info_dialog_title">Tentang Aplikasi</string>
+    <string name="info_dialog_description">Aplikasi resmi untuk mengakses portal kurikulum SMAN Pesanggaran. \nDeveloped by AlfinNS</string>
+    <string name="info_dialog_close">Tutup</string>
+    
+    <!-- Actions -->
+    <string name="action_info">Info</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_back">Kembali</string>
+    
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_app_logo">Logo SMAN Pesanggaran</string>
+    <string name="cd_info_button">Tombol informasi aplikasi</string>
+    <string name="cd_refresh_button">Tombol muat ulang halaman</string>
+    <string name="cd_back_button">Tombol kembali</string>
+    <string name="cd_no_internet_icon">Ilustrasi tidak ada koneksi internet</string>
+    
+    <!-- Exit Confirmation -->
+    <string name="exit_confirm_title">Keluar Aplikasi</string>
+    <string name="exit_confirm_message">Apakah Anda yakin ingin keluar dari aplikasi?</string>
+    <string name="exit_confirm_yes">Ya</string>
+    <string name="exit_confirm_no">Tidak</string>
+</resources>
